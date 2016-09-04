@@ -7,19 +7,21 @@
 //
 
 #import "ViewController.h"
+#import "ViewControllerModel.h"
 
-@implementation ViewController
+@implementation ViewController {
+    ViewControllerModel *model;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    // Do any additional setup after loading the view.
-}
-
-- (void)setRepresentedObject:(id)representedObject {
-    [super setRepresentedObject:representedObject];
-
-    // Update the view, if already loaded.
+    // Sending Params
+    //    model = [[ViewControllerModel alloc]init];
+    //    [model getThatJSONWithParams];
+    
+    // Not Sending Params
+    //    model = [[ViewControllerModel alloc]init];
+    //    [model getThatJSONWithOutParams];
 }
 
 @end
